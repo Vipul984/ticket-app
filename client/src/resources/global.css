@@ -1,0 +1,118 @@
+/* heights and widtdths */
+.h-screen {
+    height: 100vh;
+}
+
+.w-300 {
+    width: 300px;
+}
+
+.w-400 {
+    width: 400px;
+}
+
+/* inputs */
+input,
+select {
+    height: 40px;
+    border: 2px solid gray;
+    width: 100%;
+    padding-left: 20px;
+}
+
+/* card */
+.card {
+    border: 2px solid gray;
+    box-shadow: 0 0 2px gray;
+}
+
+/* text */
+.text-2xl {
+    font-size: 30px;
+}
+
+.text-xl {
+    font-size: 25px;
+}
+
+.text-lg {
+    font-size: 20px;
+}
+
+.text-md {
+    font-size: 18px;
+}
+
+.underline {
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--primary);
+}
+
+.primary-text {
+    color: var(--primary);
+
+}
+
+/* buttons */
+
+.primary-btn {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.disabled-btn {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    pointer-events: none !important;
+    cursor: disabled !important;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+/* spinner */
+.spinner-parent {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: rgba(0, 0, 0, 0.507) !important;
+    z-index: 10000;
+}
+
+.spinner-border {
+    color: white !important;
+    height: 80px !important;
+    width: 80px !important;
+}
+
+i {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+h1,
+p {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
